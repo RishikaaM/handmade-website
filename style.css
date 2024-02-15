@@ -1,0 +1,98 @@
+/* Global Styles */
+body {
+    background-image: url("home.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-family: 'Lora', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #683b14ad;
+    color: rgb(247, 207, 166);
+    padding: 20px;
+    transition: background-color 0.3s ease; /* Add transition for background color */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+    transition: transform 0.3s ease; /* Add transition for transform */
+}
+
+nav ul li a {
+    color: rgb(244, 175, 106);
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: #683b14b4;
+    color: rgb(247, 207, 166);
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    transition: background-color 0.3s ease; /* Add transition for background color */
+}
+
+/* Page-specific Styles */
+h1 {
+    margin: 0;
+    transition: color 0.3s ease; /* Add transition for color */
+    cursor: pointer; /* Add cursor pointer */
+}
+
+h2 {
+    margin-top: 0;
+    transition: color 0.3s ease; /* Add transition for color */
+}
+
+section {
+    margin-bottom: 20px;
+    color: rgb(250, 249, 248);
+    transition: opacity 0.5s ease; /* Add transition for opacity */
+}
+
+ul {
+    padding-left: 20px;
+}
+
+.aboutbg { 
+    background-image: url("Untitled\ design.jpg");
+    transition: background-image 0.3s ease; /* Add transition for background image */
+}
+
+.placesbg {
+    background-image: url("Places.jpg");
+    transition: background-image 0.3s ease; /* Add transition for background image */
+}
+
+.culturebg {
+    background-image: url("culture.jpg");
+    transition: background-image 0.3s ease; /* Add transition for background image */
+}
+
+/* Hover effects */
+nav ul li a:hover {
+    color: #fff; /* Change text color on hover */
+    transform: scale(1.1); /* Add hover effect - scale */
+}
+
+h1:hover {
+    color: #f00; /* Change color on hover */
+}
+
+section:hover {
+    opacity: 0.8; /* Change opacity on hover */
+}
